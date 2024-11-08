@@ -536,13 +536,13 @@ code {
   content: "📹";
 }
 
-.fa-bars:before {
+.fa-bars::before {
   content: "☰";
   font-size: 1.5em;
   font-style: normal;
 }
 
-.fa-times:before {
+.fa-times::before {
   content: "🞫";
   font-size: 1.5em;
   font-style: normal;
