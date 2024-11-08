@@ -1,0 +1,166 @@
+@use 'variables' as *;
+
+@font-face {
+  font: {
+    family: 'LibreBodoni-Bold';
+    style: normal;
+    weight: bold;
+  }
+
+  src: url($font-path + "LibreBodoni-Bold.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreBodoni-BoldItalic';
+    style: italic;
+    weight: bold;
+  }
+
+  src: url($font-path + "LibreBodoni-BoldItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreBodoni-Italic';
+    style: italic;
+    weight: normal;
+  }
+
+  src: url($font-path + "LibreBodoni-Italic.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreBodoni-Regular';
+    style: normal;
+    weight: normal;
+  }
+
+  src: url($font-path + "LibreBodoni-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreBodoni-Black';
+    style: normal;
+    weight: 900;
+  }
+
+  src: url($font-path + "LibreFranklin-Black.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreFranklin-Bold';
+    style: normal;
+    weight: bold;
+  }
+
+  src: url($font-path + "LibreFranklin-Bold.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreFranklin-BoldItalic';
+    style: italic;
+    weight: bold;
+  }
+
+  src: url($font-path + "LibreFranklin-BoldItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreFranklin-ExtraLight';
+    style: normal;
+    weight: 100;
+  }
+
+  src: url($font-path + "LibreFranklin-ExtraLight.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreFranklin-ExtraLightItalic';
+    style: italic;
+    weight: 100;
+  }
+
+  src: url($font-path + "LibreFranklin-ExtraLightItalic.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreFranklin-Italic';
+    style: italic;
+    weight: normal;
+  }
+
+  src: url($font-path + "LibreFranklin-Italic.woff2") format('woff2');
+}
+
+@font-face {
+  font: {
+    family: 'LibreFranklin-Regular';
+    style: normal;
+    weight: normal;
+  }
+
+  src: url($font-path + "LibreFranklin-Regular.woff2") format('woff2');
+}
+
+body {
+  font-family: 'LibreFranklin-ExtraLight', sans-serif;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.6em;
+  font-family: 'LibreBodoni-Bold', serif;
+}
+
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  font-family: 'LibreBodoni-Regular', serif;
+}
+
+em {
+  font-family: 'LibreFranklin-ExtraLight', serif;
+}
+
+strong {
+  font-family: 'LibreFranklin-Bold', serif;
+}
+
+em strong,
+strong em {
+  font-family: 'LibreFranklin-BoldItalic', serif;
+}
+
+code {
+  font-family: monospace;
+}
+
+.main p:first-of-type::first-letter {
+  color: $title-color;
+  font-family: 'LibreBodoni-BoldItalic';
+  initial-letter: 3;
+  margin-right: 0.15em;
+  margin-top: 0.1em;
+  /* Firefox */
+  float: left;
+  font-size: 500%;    
+}

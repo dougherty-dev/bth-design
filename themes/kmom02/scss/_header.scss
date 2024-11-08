@@ -1,0 +1,42 @@
+@use 'variables' as *;
+
+.header {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  min-width: 100px;
+  max-width: 200px;
+  padding: 2.8em 1em 1em 0;
+}
+
+.title {
+  padding: 3em 3em 3em 0;
+
+  * {
+    color: $title-color;
+  }
+
+  p {
+    font-style: italic;
+  }
+
+  @media not print and (max-width: 650px) {
+    padding: 1em 1em 1em 0;
+    min-width: 50%;
+  }
+
+  h1 {
+    @media screen and (max-width: 400px) {
+      font-size: 1.2em;
+      padding-top: 0.7em;
+    }
+  }
+}

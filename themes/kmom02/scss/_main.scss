@@ -1,0 +1,28 @@
+@use 'variables' as *;
+
+.main {
+  vertical-align: top;
+  column-count: 2;
+  column-width: 15em;
+  column-gap: 1em;
+  column-fill: balance;
+ 
+  *:first-child {
+    margin: 0;
+  }
+}
+
+@mixin sym {
+  font-size: 0.5em;
+  color: $navigation-menu-color;
+}
+
+.main > h1::before {
+  content: '✰ ';
+  @include sym;
+}
+
+.main > h1::after {
+  content: ' ✰';
+  @include sym;
+}

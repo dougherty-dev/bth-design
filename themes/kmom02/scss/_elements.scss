@@ -1,0 +1,76 @@
+@use 'variables' as *;
+
+:root {
+  -webkit-locale: 'sv';
+}
+
+* {
+  box-sizing: border-box;
+  color: $forground-color;
+  hyphens: auto;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: clamp(300px, 600vw, 1000px);
+  background-color: $background-color;
+  color: $forground-color;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+code {
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  border: $border;
+  border-radius: $border-radius;
+}
+
+pre {
+  padding: 0 1em;
+  border: $border;
+
+  border-radius: $border-radius;
+
+  code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: $border;
+}
+
+h1 {
+  margin-bottom: 1em;
+  color: $header-color;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  object-fit: scale-down;
+  border-radius: $border-radius;
+}

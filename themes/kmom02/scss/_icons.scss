@@ -1,0 +1,30 @@
+.social-github::before {
+  content: '🐱';
+}
+
+.social-x::before {
+  content: '🐔';
+}
+
+.social-youtube::before {
+  content: '📹';
+}
+
+@mixin toggler {
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+.fa-bars:before {
+  content: '☰';
+  @include toggler;
+}
+
+.fa-times:before {
+  content: '🞫';
+  @include toggler;
+}
+
+.sr-only {
+  display: none;
+}
