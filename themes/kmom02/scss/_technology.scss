@@ -1,0 +1,110 @@
+@use 'variables' as *;
+
+.landingpage {
+  column-span: all;
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  justify-items: center;
+  align-items: center;
+  gap: 0.2em;
+
+  h1 {
+    grid-column: 1/-1;
+    justify-self: left;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: auto auto;
+  }
+
+  @media screen and (max-width: 500px) {
+    grid-template-columns: auto;
+  }
+}
+
+.wide3 {
+  grid-column: span 3;
+
+  @media screen and (max-width: 800px) {
+    grid-column: span 2;
+  }
+
+  @media screen and (max-width: 500px) {
+    grid-column: span 1;
+  }
+}
+
+.wide2 {
+  grid-column: span 2;
+
+  @media screen and (max-width: 500px) {
+    grid-column: span 1;
+  }
+}
+
+.box {
+  width: 100%;
+  border: $border;
+  border-radius: $border-radius;
+  padding: 0 0.5em;
+  font-family: 'LibreFranklin-Black';
+  font-size: 1.2em;
+  text-align: left;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.1em;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 1em;
+  }
+}
+
+.tech {
+  width: 1.7em;
+  height: 1.7em;
+  vertical-align: middle;
+  padding-right: 0.5em;
+}
+
+.tech-page {
+  column-span: all;
+
+  display: grid;
+  grid-template-areas: 'sidebar tech-content';
+  grid-template-columns: 15em 1fr;
+  gap: 0.5em;
+
+  @media (max-width: 600px) {
+    grid-template-areas:
+      'sidebar'
+      'tech-content';
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-sidebar {
+  grid-area: sidebar;
+  margin: 0 1em;
+
+  div {
+    margin: 0 0.5em;
+    padding: 0 0.5em;
+    border: $navigation-menu-color solid thin;
+    border-radius: $border-radius;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.grid-tech-content {
+  grid-area: tech-content;
+  overflow: auto;
+}
