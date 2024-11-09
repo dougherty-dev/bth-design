@@ -42,7 +42,7 @@
 
 @font-face {
   font: {
-    family: 'LibreBodoni-Black';
+    family: 'LibreFranklin-Black';
     style: normal;
     weight: 900;
   }
@@ -152,15 +152,4 @@ strong em {
 
 code {
   font-family: monospace;
-}
-
-.main p:first-of-type::first-letter {
-  color: $title-color;
-  font-family: 'LibreBodoni-BoldItalic';
-  initial-letter: 3;
-  margin-right: 0.15em;
-  margin-top: 0.1em;
-  /* Firefox */
-  float: left;
-  font-size: 500%;    
 }
