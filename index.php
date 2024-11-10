@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 
 if (is_file(__DIR__ . '/vendor/autoload.php')) {
     require_once(__DIR__ . '/vendor/autoload.php');
@@ -17,6 +18,10 @@ $pico = new Pico(
 );
 
 // override configuration?
+$pico->setConfig(array(
+    'session' => $_SESSION
+));
+
 //$pico->setConfig(array());
 
 // run application

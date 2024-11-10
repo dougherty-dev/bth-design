@@ -14,4 +14,12 @@ Social:
       url: https://www.youtube.com/c/MichaelPennMath/videos
       icon: social-youtube
       # icon: fab fa-youtube
+    - title: Mode
+      url: ?action=theme
+      icon: social-yinyang
+      # icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: social-trash
+      # icon: fas fa-trash-alt
 ---

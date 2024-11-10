@@ -4,8 +4,7 @@ Description: Sida om använda tekniker.
 Template: technologies
 ---
 
-tech
-==========================
+# tech
 
 <div class="box" markdown="1">
 ![img](%assets_url%/svg/css.svg){.tech}

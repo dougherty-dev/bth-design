@@ -310,6 +310,7 @@ template {
 
 :root {
   -webkit-locale: "sv";
+  color-scheme: light dark;
 }
 
 * {
@@ -538,6 +539,14 @@ code {
   content: "📹";
 }
 
+.social-yinyang::before {
+  content: "☯";
+}
+
+.social-trash::before {
+  content: "🗑️";
+}
+
 .fa-bars::before {
   content: "☰";
   font-size: 1.5em;
@@ -722,6 +731,62 @@ code {
 .grid-tech-content {
   grid-area: tech-content;
   overflow: auto;
+}
+
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.2s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+  color: #59575c;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav-toggle {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+.hidden {
+  display: none !important;
 }
 
 /*

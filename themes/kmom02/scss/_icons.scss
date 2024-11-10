@@ -10,6 +10,14 @@
   content: '📹';
 }
 
+.social-yinyang::before {
+  content: '🔆';
+}
+
+.social-trash::before {
+  content: '🗑️';
+}
+
 @mixin toggler {
   font-size: 1.5em;
   font-style: normal;

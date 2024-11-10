@@ -15,8 +15,11 @@
     {% endif %}
 
     <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css">
-    <link rel="stylesheet" href="{{ theme_url }}/css/mobile-menu.css" type="text/css">
+{% if config.session.theme == "light" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-light.min.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+{% endif %}
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ theme_url }}/../shared/img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ theme_url }}/../shared/img/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ theme_url }}/../shared/img/favicon-16x16.png">

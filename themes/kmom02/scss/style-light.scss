@@ -1,13 +1,9 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'palette';
-@import 'variables';
+@import 'variables-light';
 @import 'common';
 // @import 'fontawesome';
 
-img {
-  filter: brightness(0.9) contrast(1.1);
-}
-
-.nofilter {
-  filter: initial;
+.social-yinyang::before {
+  filter: invert(1) grayscale(1);
 }
