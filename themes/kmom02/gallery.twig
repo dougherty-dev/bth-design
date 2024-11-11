@@ -23,6 +23,8 @@
     "2017-hangzhou-01-longjing-o.avif"
 ] %}
 
+{% set ff = 'sa=webp' %}
+
 {% include 'incl/header.twig' %}
 
 <body>
@@ -37,14 +39,14 @@
         <a class="picture" href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
             <picture>
                 <source media="(min-width: 800px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=800&sa=webp">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=800&{{ ff }}">
                 <source media="(min-width: 600px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=600&sa=webp">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=600&{{ ff }}">
                 <source media="(min-width: 400px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=400&sa=webp">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=400&{{ ff }}">
                 <source media="(min-width: 200px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=200&sa=webp">
-                <img src="{{ base_url }}/image/gallery/{{ image }}&w=1000&sa=webp" alt="Shanghai Nanjing Lu">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=200&{{ ff }}">
+                <img src="{{ base_url }}/image/gallery/{{ image }}&w=1000&{{ ff }}" alt="{{ image }}">
             </picture>
         </a>
         {% endfor %}
