@@ -1,0 +1,60 @@
+{% set images = [
+    "2009-shanghai-04-nanjinglu-o.avif",
+    "2010-malmo-01-midwinter-o.avif",
+    "2010-malmo-02-midwinter-o.avif",
+    "2012-tianjin-01-zhongxin-o.avif",
+    "2012-tianjin-04-gu-wenhua-jie-o.avif",
+    "2012-tianjin-05-binjiang-dao-o.avif",
+    "2014-beijing-01-sanlitun-o.avif",
+    "2014-beijing-03-changcheng-o.avif",
+    "2014-beijing-05-sanlitun-o.avif",
+    "2014-beijing-07-tiananmen-o.avif",
+    "2014-tianjin-04-jinta-o.avif",
+    "2014-tianjin-05-jiefangqiao-o.avif",
+    "2014-tianjin-07-dabeiyuan-o.avif",
+    "2014-tianjin-09-tianjin-zhi-yan-o.avif",
+    "2015-beijing-03-gugong-o.avif",
+    "2015-beijing-05-shichahai-o.avif",
+    "2015-beijing-07-wudaoying-o.avif",
+    "2015-beijing-09-yonghegong-o.avif",
+    "2015-kosice-01-o.avif",
+    "2015-veneto-01-marostica-o.avif",
+    "2015-veneto-02-venezia-o.avif",
+    "2017-hangzhou-01-longjing-o.avif"
+] %}
+
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        {{ content }}
+    </div>
+
+    <div class="gallery">
+        {% for image in images %}
+        <a class="picture" href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
+            <picture>
+                <source media="(min-width: 800px)"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=800&sa=webp">
+                <source media="(min-width: 600px)"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=600&sa=webp">
+                <source media="(min-width: 400px)"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=400&sa=webp">
+                <source media="(min-width: 200px)"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=200&sa=webp">
+                <img src="{{ base_url }}/image/gallery/{{ image }}&w=1000&sa=webp" alt="Shanghai Nanjing Lu">
+            </picture>
+        </a>
+        {% endfor %}
+    </div>
+
+    <div class="video">
+        <iframe width="1000" height="562" src="https://www.youtube.com/embed/Z5NoQg8LdDk?si=JzMBxJtZntdrOfj2" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
