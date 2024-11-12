@@ -11,6 +11,6 @@ Kosmopolit och internationalist, europé, västgöte och stridsyxing, med urspru
 
 Ateist, nihilist, stoiker, minimalist, biologist, skeptiker och rationell egoist med dragning åt den klara tankens österländska tradition (禅 *chan*, 儒 *ru*, 道 *dao*). Sinofil sinolog, japanofil japanolog, polyglott filolog. På landet boende asfaltbarn som älskar megastaden. Lyckligt skild, en avkomma.
 
-Hundra procent hetero, noll proccent bonde. Naturligtvis köttätare under en sträng plantfri diet. Gigachad och sigmahanne med våldsam dödsdrift.
+Hundra procent hetero, noll procent bonde. Naturligtvis köttätare under en sträng plantfri diet. Gigachad och sigmahanne med våldsam dödsdrift.
 
 ![me](%assets_url%/img/admin2.avif)

@@ -3,47 +3,44 @@
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 1em;
-  margin-top: 1em;
-}
+  margin: 1em 0;
+  max-width: 100%;
+  transition: transform 0.2s;
 
-.gallery > .picture {
-  position: relative;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media not print {
-  @media (min-width: 0) {
-    .gallery {grid-template-columns: auto;}
+  > .picture {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
   }
 
-  @media (min-width: 500px) {
-    .gallery {grid-template-columns: auto auto;}
+  > .picture:hover {
+    filter: brightness(0.8) contrast(1.2) grayscale(0.5);
+    transform: scale(1.5);
+    z-index: 10;
   }
 
-  @media (min-width: 700px) {
-    .gallery {grid-template-columns: auto auto auto;}
-  }
-
-  @media (min-width: 900px) {
-    .gallery {grid-template-columns: auto auto auto auto;}
+  @media not print {
+    @media (min-width: 0) {grid-template-columns: auto;}
+    @media (min-width: 500px) {grid-template-columns: repeat(2, auto);}
+    @media (min-width: 700px) {grid-template-columns: repeat(3, auto);}
+    @media (min-width: 900px) {grid-template-columns: repeat(4, auto);}
   }
 }
 
 .video {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 35px;
+  margin-top: 1em;
   height: 0;
-  overflow: hidden;
-}
 
-.video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }

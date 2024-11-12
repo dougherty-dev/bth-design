@@ -10,7 +10,7 @@
 }
 
 .logo {
-  min-width: 100px;
+  min-width: 70px;
   max-width: 200px;
   padding: 2.8em 1em 1em 0;
 }
@@ -37,4 +37,8 @@
       padding-top: 0.7em;
     }
   }
+}
+
+.nav * {
+  hyphens: none;
 }

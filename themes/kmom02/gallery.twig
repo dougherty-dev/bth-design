@@ -24,6 +24,10 @@
 ] %}
 
 {% set ff = 'sa=webp' %}
+{% set x1 = 'dpr=1' %}
+{% set x2 = 'dpr=2' %}
+{% set x3 = 'dpr=3' %}
+{% set x4 = 'dpr=4' %}
 
 {% include 'incl/header.twig' %}
 
@@ -39,21 +43,27 @@
         <a class="picture" href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
             <picture>
                 <source media="(min-width: 800px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=800&{{ ff }}">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=800&{{ ff }}&{{ x1 }} 1x,
+                        {{ base_url }}/image/gallery/{{ image }}&w=800&{{ ff }}&{{ x2 }} 2x">
                 <source media="(min-width: 600px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=600&{{ ff }}">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=600&{{ ff }}&{{ x1 }} 1x,
+                        {{ base_url }}/image/gallery/{{ image }}&w=600&{{ ff }}&{{ x2 }} 2x">
                 <source media="(min-width: 400px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=400&{{ ff }}">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=400&{{ ff }}&{{ x }} 1x,
+                        {{ base_url }}/image/gallery/{{ image }}&w=400&{{ ff }}&{{ x2 }} 2x">
                 <source media="(min-width: 200px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=200&{{ ff }}">
-                <img src="{{ base_url }}/image/gallery/{{ image }}&w=1000&{{ ff }}" alt="{{ image }}">
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=200&{{ ff }}&{{ x1 }} 1x,
+                        {{ base_url }}/image/gallery/{{ image }}&w=200&{{ ff }}&{{ x2 }} 2x">
+                <img src="{{ base_url }}/image/gallery/{{ image }}&w=1000&{{ ff }}&{{ x1 }}"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=1000&{{ ff }}&{{ x2 }} 2x"
+                    alt="{{ image }}">
             </picture>
         </a>
         {% endfor %}
     </div>
 
     <div class="video">
-        <iframe width="1000" height="562" src="https://www.youtube.com/embed/Z5NoQg8LdDk?si=JzMBxJtZntdrOfj2" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="1000" height="562" src="https://www.youtube.com/embed/Z5NoQg8LdDk" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope" style="border: none;"></iframe>
     </div>
 
     {% include 'incl/footer.twig' %}

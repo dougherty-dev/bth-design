@@ -7,3 +7,7 @@
 .social-yinyang::before {
   filter: invert(1) grayscale(1);
 }
+
+::selection {
+  background: $header-color;
+}

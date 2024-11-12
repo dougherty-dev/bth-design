@@ -260,7 +260,7 @@ Formgivningen är avsedd att signalera modernitet medelst linjära och lättläs
 
 ### Arbetsförmedlingen
 
-Möjligen prioriterar myndigheten funktion framför formgivning, men frågan är om de två kan separeras – form *är* fumktion. Sajten ser ut som det billigaste Wordpress-tema, och tyvärr har de kromatiska problemen inte fått en konsekvent lösning. Alldeles för många kockar har kokat denna soppa.
+Möjligen prioriterar myndigheten funktion framför formgivning, men frågan är om de två kan separeras – form *är* funktion. Sajten ser ut som det billigaste Wordpress-tema, och tyvärr har de kromatiska problemen inte fått en konsekvent lösning. Alldeles för många kockar har kokat denna soppa.
 
 ![Arbetsförmedlingens palett; kontrast / analog](%assets_url%/img/af-palett.avif){.palette-smaller }
 

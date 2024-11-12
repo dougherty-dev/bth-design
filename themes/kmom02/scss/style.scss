@@ -11,3 +11,7 @@ img {
 .nofilter {
   filter: initial;
 }
+
+::selection {
+  background: $title-color;
+}

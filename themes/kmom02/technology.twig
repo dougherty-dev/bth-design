@@ -11,7 +11,7 @@
                 </div>
                 {% for page in pages("technology") %}
                 <div>
-                    <h3><img src="{{ assets_url }}/svg/{{ page.title | lower }}.svg" class="tech">
+                    <h3><img src="{{ assets_url }}/svg/{{ page.title | lower }}.svg" class="tech" alt="{{ page.title }}">
                     <a href="{{ page.url }}">{{ page.title }}</a></h3>
                 </div>
  {% endfor %}

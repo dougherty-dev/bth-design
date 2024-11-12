@@ -21,7 +21,7 @@ I vår analys stödjer vi oss främst på *Google page speed insights* (PSI) sam
 
 I inspektorn noterar vi antalet laddade resurser och den totala datavolymen för sidan. För varje undersökt sida bestäms medelvärdet av laddningstid för tre försök, vilka utförs i anonymt läge för att undvika cachade resurser. Resultaten införs i ett [kalkylark](https://docs.google.com/spreadsheets/d/1jC8S_ru2FlA9WRdD5Gra4V0MgnDJaJZR1X-8hIqMw4U/edit?usp=sharing), som även bäddas in här för bekväm referens.
 
-<iframe style="height: 40vh; width: 100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0b3YS2OnKnHVKBiRlpnxAx2jVzMteNjpfPAYOUdFgN4Xlk4fYwPnKmwNo2KG1njpbrYvKjIfqX6Mm/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="Kalkylblad" style="height: 40vh; width: 100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0b3YS2OnKnHVKBiRlpnxAx2jVzMteNjpfPAYOUdFgN4Xlk4fYwPnKmwNo2KG1njpbrYvKjIfqX6Mm/pubhtml?widget=true&amp;headers=false"></iframe>
 
 Resultat
 -----------------------

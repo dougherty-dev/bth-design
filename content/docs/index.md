@@ -1,6 +1,7 @@
 ---
 Title: dox
 Description: Documentation that came with Pico.
+Template: dox
 # hidden: true
 ---
 
