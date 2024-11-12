@@ -40,20 +40,17 @@
         {% for image in images %}
         <a class="picture" href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
             <picture>
-                <source media="(min-width: 800px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=800&{{ ff }}&{{ x1 }} 1x,
-                        {{ base_url }}/image/gallery/{{ image }}&w=800&{{ ff }}&{{ x2 }} 2x">
-                <source media="(min-width: 600px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=600&{{ ff }}&{{ x1 }} 1x,
-                        {{ base_url }}/image/gallery/{{ image }}&w=600&{{ ff }}&{{ x2 }} 2x">
-                <source media="(min-width: 400px)"
+                <source media="(max-width: 400px)"
                     srcset="{{ base_url }}/image/gallery/{{ image }}&w=400&{{ ff }}&{{ x }} 1x,
                         {{ base_url }}/image/gallery/{{ image }}&w=400&{{ ff }}&{{ x2 }} 2x">
-                <source media="(min-width: 200px)"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=200&{{ ff }}&{{ x1 }} 1x,
-                        {{ base_url }}/image/gallery/{{ image }}&w=200&{{ ff }}&{{ x2 }} 2x">
-                <img src="{{ base_url }}/image/gallery/{{ image }}&w=1000&{{ ff }}&{{ x1 }}"
-                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=1000&{{ ff }}&{{ x2 }} 2x"
+                <source media="(max-width: 700px)"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=350&{{ ff }}&{{ x1 }} 1x,
+                        {{ base_url }}/image/gallery/{{ image }}&w=350&{{ ff }}&{{ x2 }} 2x">
+                <source media="(max-width: 900px)"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=300&{{ ff }}&{{ x1 }} 1x,
+                        {{ base_url }}/image/gallery/{{ image }}&w=300&{{ ff }}&{{ x2 }} 2x">
+                <img src="{{ base_url }}/image/gallery/{{ image }}&w=250&{{ ff }}&{{ x1 }}"
+                    srcset="{{ base_url }}/image/gallery/{{ image }}&w=250&{{ ff }}&{{ x2 }} 2x"
                     alt="{{ image }}">
             </picture>
         </a>
