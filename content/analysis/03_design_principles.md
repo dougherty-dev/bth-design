@@ -56,7 +56,7 @@ Formgivningen är helt generell, med inslag av skalning i konstgalleriet. Palett
 
 ![Donald Trump](%assets_url%/img/donald-trump.avif)
 
-USA:s 45:e respektive 47:e president, Donald J. Trump, har måhända sina tillkortakommanden, men man kan inte förneka att det är en karismatisk person som tar stor plats i offentligheten. Han har naturligtvis en personliig [webbplats](https://www.donaldjtrump.com/), som stilenligt går i de amerikanska färgerna rött, blått och vitt.
+USA:s 45:e respektive 47:e president, Donald J. Trump, har måhända sina tillkortakommanden, men man kan inte förneka att det är en karismatisk person som tar stor plats i offentligheten. Han har naturligtvis en personlig [webbplats](https://www.donaldjtrump.com/), som stilenligt går i de amerikanska färgerna rött, blått och vitt.
 
 Sajten är ganska innehållslös, men det vi recenserar här är formgivningen, som trots allt inte är helt oäven. Det är den starke mannen som framhävs, vilket rimmar med Trumps personlighet, likväl som paranoida tankegångar och konspirationsteoretiska slagord.
 

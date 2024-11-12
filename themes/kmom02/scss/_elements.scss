@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box;
-  color: $forground-color;
+  color: $foreground-color;
 }
 
 body {
@@ -13,10 +13,10 @@ body {
   grid-template-rows: auto 1fr auto; // footer at bottom
 
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0 1em;
   max-width: 1000px;
   background-color: $background-color;
-  color: $forground-color;
+  color: $foreground-color;
   font-size: 1.1em;
   line-height: 1.5;
   hyphens: auto;
@@ -58,6 +58,7 @@ blockquote {
 h1 {
   margin-bottom: 1em;
   color: $header-color;
+  text-wrap: balance;
 }
 
 p {
