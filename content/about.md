@@ -9,7 +9,7 @@ Description: Om webbplatsen.
 
 För **SASS** använder vi nästlade definitioner samt lämpliga kortformer som *font*. Även variabler nyttjas för färger och en del andra vanliga definitioner, som ramar och mediaelement.
 
-Modulering medelst @import nyttjas för koncis hantering av stilscheman, även om @use tillsammans med CSS-variabler hade varit en mer stilren lösning. Noterbara stilelement är bland annat en inledande anfang i brödtexten; nyttjande av kolumner, grid och flexbox för responsiv rendering; mörkt grundtema; samt webbfonter (woff2).
+Modulering medelst @use och @forward nyttjas för koncis hantering av stilscheman. Noterbara stilelement är bland annat en inledande anfang i brödtexten; nyttjande av kolumner, grid och flexbox för responsiv rendering; mörkt grundtema; samt webbfonter (woff2).
 
 För typsnitt nyttjas **Franklin** i tunt grundutförande som brödtext, ett klassiskt linjärt snitt med höggradig läsbarhet, samt **Bodoni** för rubriker, en populär antikva som bland annat figurerar i Dagens Nyheters logotyp.
 

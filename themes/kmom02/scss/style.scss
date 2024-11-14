@@ -1,8 +1,5 @@
-@import '../../node_modules/normalize.css/normalize';
-@import 'palette';
-@import 'variables';
-@import 'common';
-// @import 'fontawesome';
+@use 'abstracts' as *;
+@use 'common';
 
 img {
   filter: brightness(0.9) contrast(1.1);

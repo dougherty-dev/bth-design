@@ -1,0 +1,17 @@
+@use '../palette' as *;
+
+$background-color: $contrast-dark-3 !default;
+$foreground-color: $contrast-light-3 !default;
+
+$title-color: $tertiary-3 !default;
+$header-color: $primary-3 !default;
+
+$footer-background-color: $complement-1 !default;
+$navigation-menu-color: $contrast-dark-1 !default;
+
+$border-color: $secondary-4 !default;
+$border: 1px solid $border-color;
+$border-radius: 0.3em;
+
+$font-path: '../font/';
+$svg-path: '../../../assets/svg/';
