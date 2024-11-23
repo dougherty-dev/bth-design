@@ -1,6 +1,7 @@
 ---
 Title: HTML
-Description: html
+Description: En sida om html
+svg: html
 Template: technology
 ---
 

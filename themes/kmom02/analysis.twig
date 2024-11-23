@@ -11,7 +11,7 @@
                 </div>
 {% for page in pages("analysis") %}
                 <div>
-                    <h3><img src="{{ assets_url }}/svg/{{ page.description }}.svg" class="tech" alt="{{ page.description }}">
+                    <h3><img src="{{ assets_url }}/svg/{{ page.meta.svg }}.svg" class="tech" alt="{{ page.description }}">
                     <a href="{{ page.url }}">{{ page.title }}</a></h3>
                 </div>
  {% endfor %}

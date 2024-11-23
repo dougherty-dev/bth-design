@@ -1,6 +1,7 @@
 ---
 Title: CSS
-Description: css
+Description: En sida om css
+svg: css
 Template: technology
 ---
 

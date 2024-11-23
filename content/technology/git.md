@@ -1,6 +1,7 @@
 ---
 Title: Git
-Description: git
+Description: En sida om git
+svg: git
 Template: technology
 ---
 

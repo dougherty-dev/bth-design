@@ -1,6 +1,7 @@
 ---
 Title: Laddtid
-Description: clock
+Description: Prestanda för några webbplatser
+svg: clock
 Template: analysis
 ---
 

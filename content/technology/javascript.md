@@ -1,6 +1,7 @@
 ---
 Title: Javascript
-Description: javascript
+Description: En sida om javascript
+svg: javascript
 Template: technology
 ---
 

@@ -1,6 +1,7 @@
 ---
 Title: Design
-Description: design
+Description: Designprinciper för några webbplatser
+svg: design
 Template: analysis
 ---
 

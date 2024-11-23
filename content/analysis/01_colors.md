@@ -1,6 +1,7 @@
 ---
 Title: Färg
-Description: color
+Description: Typografi och färg vid några webbplatser
+svg: color
 Template: analysis
 ---
 

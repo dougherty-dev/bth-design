@@ -1,6 +1,7 @@
 ---
 Title: Design och webbplatser
-Description: web
+Description: Design och webbplatser
+svg: web
 Template: analysis
 ---
 

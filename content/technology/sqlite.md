@@ -1,6 +1,7 @@
 ---
 Title: SQLite
-Description: sqlite
+Description: En sida om SQLite
+svg: sqlite
 Template: technology
 ---
 

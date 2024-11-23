@@ -1,6 +1,7 @@
 ---
 Title: PHP
-Description: php
+Description: En sida om php
+svg: php
 Template: technology
 ---
 

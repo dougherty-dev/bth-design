@@ -1,6 +1,7 @@
 ---
 Title: Webbplatsdesign och aktuella trender
-Description: trend
+Description: Webbplatsdesign och aktuella trender
+svg: trend
 Template: analysis
 ---
 
