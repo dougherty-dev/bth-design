@@ -1,6 +1,6 @@
 ---
 Title: Python
-Description: Sida om Python.
+Description: python
 Template: technology
 ---
 

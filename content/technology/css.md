@@ -1,6 +1,6 @@
 ---
 Title: CSS
-Description: Sida om CSS.
+Description: css
 Template: technology
 ---
 

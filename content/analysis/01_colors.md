@@ -1,7 +1,7 @@
 ---
 Title: Färg
 Description: color
-Template: analyses
+Template: analysis
 ---
 
 Typografi och färg vid några webbplatser

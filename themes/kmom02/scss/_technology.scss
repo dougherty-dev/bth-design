@@ -4,7 +4,7 @@
   column-span: all;
 
   display: grid;
-  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, auto);
   justify-items: center;
   align-items: center;
   gap: 0.2em;
@@ -14,11 +14,7 @@
     justify-self: left;
   }
 
-  @media screen and (max-width: 800px) {
-    grid-template-columns: auto auto;
-  }
-
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     grid-template-columns: auto;
   }
 }
@@ -26,11 +22,7 @@
 .wide3 {
   grid-column: span 3;
 
-  @media screen and (max-width: 800px) {
-    grid-column: span 2;
-  }
-
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     grid-column: span 1;
   }
 }
@@ -38,7 +30,7 @@
 .wide2 {
   grid-column: span 2;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     grid-column: span 1;
   }
 }

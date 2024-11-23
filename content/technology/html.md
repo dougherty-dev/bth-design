@@ -1,6 +1,6 @@
 ---
 Title: HTML
-Description: Sida om HTML.
+Description: html
 Template: technology
 ---
 

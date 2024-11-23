@@ -1,7 +1,7 @@
 ---
 Title: Design
 Description: design
-Template: analyses
+Template: analysis
 ---
 
 Designprinciper för några webbplatser
@@ -48,7 +48,7 @@ Framträdande designelement är skalning, hierarki (med Ano själv som största 
 
 Sajten andas minimalism, med ett sinnrikt upplägg i två spalter med såväl engelsk som koreansk text i parallell, med ett insprängt foto. Som sig bör är brödtexten satt i något linjärt snitt, medan rubriker och meny ges i seriffsnitt. Själva fronten är så minimalistiskt helsidesvit den kan bli, så som det anstår en mästare.
 
-Formgivningen är helt generell, med inslag av skalning i konstgalleriet. Paletten är monokromatisk i gråskala, återigen med syftning på boken. Designen sepglar tämligen väl målsättningen och den bild Han Gang förmedlar med sin person.
+Formgivningen är helt generell, med inslag av skalning i konstgalleriet. Paletten är monokromatisk i gråskala, återigen med syftning på boken. Designen speglar tämligen väl målsättningen och den bild Han Gang förmedlar med sin person.
 
 ---
 

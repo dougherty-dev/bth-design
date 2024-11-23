@@ -1,6 +1,6 @@
 ---
 Title: PHP
-Description: Sida om PHP.
+Description: php
 Template: technology
 ---
 

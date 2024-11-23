@@ -30,14 +30,14 @@
 {% include 'incl/header.twig' %}
 
 <body>
-    {% include 'incl/nav.twig' %}
+{% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
         {{ content }}
     </div>
 
     <div class="gallery">
-        {% for image in images %}
+{% for image in images %}
         <a class="picture" href="{{ base_url }}/image/gallery/{{ image }}" target="_blank">
             <picture>
                 <source media="(max-width: 400px)"
@@ -54,14 +54,14 @@
                     alt="{{ image }}">
             </picture>
         </a>
-        {% endfor %}
+{% endfor %}
     </div>
 
     <div class="video">
         <iframe width="1000" height="562" src="https://www.youtube.com/embed/Z5NoQg8LdDk" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope" style="border: none;"></iframe>
     </div>
 
-    {% include 'incl/footer.twig' %}
+{% include 'incl/footer.twig' %}
 </body>
 
 </html>

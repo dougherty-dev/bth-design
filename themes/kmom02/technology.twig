@@ -1,18 +1,18 @@
 {% include 'incl/header.twig' %}
 
 <body>
-    {% include 'incl/nav.twig' %}
+{% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
         <div class="tech-page">
             <div class="grid-sidebar">
                 <div>
-                    <h2 class="center">tech</h2>
+                    <h2 class="center">rapport</h2>
                 </div>
-                {% for page in pages("technology") %}
+{% for page in pages("technology") %}
                 <div>
-                    <h3><img src="{{ assets_url }}/svg/{{ page.title | lower }}.svg" class="tech" alt="{{ page.title }}">
-                    <a href="{{ page.url }}">{{ page.title }}</a></h3>
+                    <p><img src="{{ assets_url }}/svg/{{ page.description }}.svg" class="tech" alt="{{ page.description }}">
+                    <a href="{{ page.url }}">{{ page.title }}</a></p>
                 </div>
  {% endfor %}
             </div>
@@ -21,8 +21,8 @@
             </div>
         </div>
     </div>
-    
-    {% include 'incl/footer.twig' %}
+
+{% include 'incl/footer.twig' %}
 </body>
 
 </html>
