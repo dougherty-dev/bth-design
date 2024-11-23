@@ -8,7 +8,7 @@
             <h1>{{ meta.title }}</h1>
 {% for reports in meta.reports %}
             <div class="{{ reports.class }}">
-                <p><img src="{{ assets_url }}/svg/{{ reports.svg }}" class="tech" alt="{{ reports.title }}">
+                <p><img src="{{ assets_url }}/svg/{{ reports.svg }}" class="tech" alt="{{ reports.alt }}">
                     <a href="{{ base_url }}/{{ reports.url }}">{{ reports.title }}</a></p>
             </div>
 {% endfor %}
